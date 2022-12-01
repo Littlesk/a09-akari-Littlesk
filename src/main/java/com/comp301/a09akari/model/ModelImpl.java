@@ -23,13 +23,14 @@ public class ModelImpl implements Model {
     public void addLamp(int r, int c) {
         if (r > lamps.length || c > lamps[0].length) {
             throw new IndexOutOfBoundsException();
-        } else if (library.getPuzzle(puzzle).getCellType(r, c) != CellType.CORRIDOR) {
-            throw new IllegalArgumentException();
-        } else {
+        } else if (library.getPuzzle(puzzle).getCellType(r, c) == CellType.CORRIDOR) {
             if (!isLamp(r, c)) {
                 lamps[r][c] = true;
                 notifyObservers();
             }
+
+        } else {
+            throw new IllegalArgumentException();
         }
     }
 
