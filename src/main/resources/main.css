@@ -5,3 +5,59 @@
  * JavaFX start() method:
  *   scene.getStylesheets().add("main.css");
  */
+
+ .board {
+   -fx-background-color: #030202;
+   -fx-padding: 10px;
+ }
+
+ .tile{
+      -fx-pref-width: 50px;
+      -fx-pref-height: 50px;
+ }
+
+.lit {
+    -fx-background-color: #d2d911;
+}
+
+.lamp {
+    -fx-background-color: #ed9609;
+    -fx-alignment: center;
+    -fx-image: src/main/resources/light-bulb;
+}
+
+.white {
+    -fx-background-color: #ede7da;
+}
+
+.wall {
+    -fx-background-color: #0d0d0c;
+}
+
+.clue {
+    -fx-background-color: #0d0d0c;
+    -fx-font-size: 20px;
+    -fx-alignment: center;
+    -fx-text-fill: #ede7da;
+}
+
+.clueSolved {
+    -fx-background-color: #0d0d0c;
+    -fx-font-size: 20px;
+    -fx-alignment: center;
+    -fx-text-fill: #05fa09;
+}
+
+.solved{
+    -fx-background-color: #2f6e30;
+}
+
+.wonFalse{
+    -fx-background-color: #030202;
+    -fx-text-fill: #030202;
+}
+
+.wonTrue{
+    -fx-background-color: #2f6e30;
+    -fx-text-fill:  #030202;
+}
