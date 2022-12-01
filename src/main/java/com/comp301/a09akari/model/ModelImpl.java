@@ -49,6 +49,8 @@ public class ModelImpl implements Model {
   public boolean isLit(int r, int c) {
     if (r > lamps.length || c > lamps[0].length) {
       throw new IndexOutOfBoundsException();
+    } else if (library.getPuzzle(puzzle).getCellType(r, c) != CellType.CORRIDOR) {
+      throw new IllegalArgumentException();
     } else {
       int checker = 0;
       for (int row = 0; row < lamps.length; row++) {
@@ -91,6 +93,8 @@ public class ModelImpl implements Model {
   public boolean isLamp(int r, int c) {
     if (r > lamps.length || c > lamps[0].length) {
       throw new IndexOutOfBoundsException();
+    } else if (library.getPuzzle(puzzle).getCellType(r, c) != CellType.CORRIDOR) {
+      throw new IllegalArgumentException();
     } else {
       return lamps[r][c];
     }
@@ -100,6 +104,8 @@ public class ModelImpl implements Model {
   public boolean isLampIllegal(int r, int c) {
     if (r > lamps.length || c > lamps[0].length) {
       throw new IndexOutOfBoundsException();
+    } else if (library.getPuzzle(puzzle).getCellType(r, c) != CellType.CORRIDOR) {
+      throw new IllegalArgumentException();
     } else {
       int checker = 0;
       for (int row = 0; row < lamps.length; row++) {
