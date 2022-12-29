@@ -58,7 +58,7 @@ public class ControlsView implements FXComponent {
     alert.setTitle("Information");
     alert.setHeaderText("Akari");
     alert.setContentText(
-        "Orange Tiles: Lamps\nYellow Tiles: Lit up tiles\nPlain Black: Walls\nBack with numbers: Clues\n");
+        "Orange Tiles: Lamps\nYellow Tiles: Lit up tiles\nPlain Black: Walls\nBlack with numbers: Clues\n");
     infoButton.setOnAction(
         (ActionEvent event) -> {
           alert.showAndWait();
