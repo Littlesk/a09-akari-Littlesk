@@ -1,6 +1,6 @@
-package com.comp301.a09akari.view;
+package com.compclass.akari.view;
 
-import com.comp301.a09akari.controller.AlternateMvcController;
+import com.compclass.akari.controller.AlternateMvcController;
 import javafx.scene.Parent;
 import javafx.scene.layout.HBox;
 import javafx.scene.text.Font;

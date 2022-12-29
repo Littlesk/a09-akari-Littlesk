@@ -1,19 +1,12 @@
-package com.comp301.a09akari.view;
+package com.compclass.akari.view;
 
-import com.comp301.a09akari.controller.AlternateMvcController;
-import com.comp301.a09akari.model.CellType;
-import com.comp301.a09akari.model.Puzzle;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+import com.compclass.akari.controller.AlternateMvcController;
+import com.compclass.akari.model.CellType;
 import javafx.scene.Parent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
-
-import java.util.List;
 
 public class PuzzleView implements FXComponent {
   private final AlternateMvcController controller;

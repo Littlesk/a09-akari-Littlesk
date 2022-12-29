@@ -1,4 +1,4 @@
-package com.comp301.a09akari.model;
+package com.compclass.akari.model;
 
 public interface Puzzle {
   /** Getter method for the width of the puzzle (i.e. the number of columns it has) */

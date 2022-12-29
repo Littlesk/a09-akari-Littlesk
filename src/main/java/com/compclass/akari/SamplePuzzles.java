@@ -1,4 +1,4 @@
-package com.comp301.a09akari;
+package com.compclass.akari;
 
 public class SamplePuzzles {
   // The following mapping between cells and integers is used for the puzzles in this file

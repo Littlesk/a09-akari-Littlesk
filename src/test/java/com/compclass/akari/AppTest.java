@@ -1,4 +1,4 @@
-package com.comp301.a09akari;
+package com.compclass.akari;
 
 import static org.junit.Assert.assertTrue;
 

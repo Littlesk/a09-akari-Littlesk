@@ -1,6 +1,6 @@
-package com.comp301.a09akari;
+package com.compclass.akari;
 
-import com.comp301.a09akari.view.AppLauncher;
+import com.compclass.akari.view.AppLauncher;
 import javafx.application.Application;
 
 public class Main {

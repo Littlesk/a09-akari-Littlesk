@@ -1,13 +1,11 @@
-package com.comp301.a09akari.view;
+package com.compclass.akari.view;
 
-import com.comp301.a09akari.controller.AlternateMvcController;
+import com.compclass.akari.controller.AlternateMvcController;
 import javafx.event.ActionEvent;
 import javafx.scene.Parent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.StackPane;
-import javafx.scene.text.Text;
 
 public class ControlsView implements FXComponent {
   private final AlternateMvcController controller;
@@ -52,6 +50,7 @@ public class ControlsView implements FXComponent {
         (ActionEvent event) -> {
           controller.clickRandPuzzle();
         });
+
     // Information Button
     Button infoButton = new Button("Information");
     Alert alert = new Alert(Alert.AlertType.INFORMATION);

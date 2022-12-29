@@ -1,7 +1,7 @@
-package com.comp301.a09akari.controller;
+package com.compclass.akari.controller;
 
-import com.comp301.a09akari.model.CellType;
-import com.comp301.a09akari.model.Puzzle;
+import com.compclass.akari.model.CellType;
+import com.compclass.akari.model.Puzzle;
 
 public interface AlternateMvcController {
   /** Handles the click action to go to the next puzzle */

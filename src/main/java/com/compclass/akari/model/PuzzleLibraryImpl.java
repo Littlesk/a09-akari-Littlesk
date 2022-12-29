@@ -1,4 +1,4 @@
-package com.comp301.a09akari.model;
+package com.compclass.akari.model;
 
 import java.util.ArrayList;
 import java.util.List;

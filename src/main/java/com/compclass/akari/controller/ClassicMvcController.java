@@ -1,4 +1,4 @@
-package com.comp301.a09akari.controller;
+package com.compclass.akari.controller;
 
 public interface ClassicMvcController {
   /** Handles the click action to go to the next puzzle */
