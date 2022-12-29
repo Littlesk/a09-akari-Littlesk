@@ -8,7 +8,7 @@ How to Win:
 
 Information:
 Click on a white tile to place a lamp. Click a lamp to remove it. You cannot place a lamp on black tiles.
-Placing a lamp will light up the tiles in the same row and column as it. When the correct amount of lamps has been placed in the tiles directly adjacent to it, the number will turn green. 
+Placing a lamp will light up the tiles in the same row and column as it. Some black tiles will have a number in them. When the correct amount of lamps has been placed in the tiles directly adjacent to it, the number will turn green. 
 This game includes 5 puzzles with varying difficulty in no particular order. You will get a prompt when you win.
 
 Akari is a well known puzzle game. This was a class project to recreate the game using some big ideas we learned throughout the semester: Encapsulation, Abstraction, Observers/Subjects, JavaFX, and Model-View-Controller.
